@@ -1,0 +1,22 @@
+/* Home Page Styles */
+
+.counter-container {
+  width: 120px;
+  height: 120px;
+}
+
+.section-max-width {
+  max-width: 600px;
+}
+
+.tab-image-container {
+  min-height: 350px;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.form-input-height {
+  height: 55px;
+}

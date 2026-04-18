@@ -1,4 +1,5 @@
 import CompanyInfo from "../components/CompanyInfo";
+import "./home.css";
 
 export default function Home() {
   return (
@@ -176,10 +177,7 @@ export default function Home() {
                 duo nonumy clita sit at, sed sit sanctus dolor eos.
               </p>
               <div className="d-flex align-items-center mb-5">
-                <div
-                  className="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
-                  style={{ width: "120px", height: "120px" }}
-                >
+                <div className="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary counter-container">
                   <h1 className="display-1 mb-n2" data-toggle="counter-up">
                     25
                   </h1>
@@ -203,9 +201,8 @@ export default function Home() {
       <div className="container-xxl py-5">
         <div className="container">
           <div
-            className="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp section-max-width"
             data-wow-delay="0.1s"
-            style={{ maxWidth: "600px" }}
           >
             <h4 className="section-title">Our Services</h4>
             <h1 className="display-5 mb-4">
@@ -416,9 +413,8 @@ export default function Home() {
       <div className="container-xxl project py-5">
         <div className="container">
           <div
-            className="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp section-max-width"
             data-wow-delay="0.1s"
-            style={{ maxWidth: "600px" }}
           >
             <h4 className="section-title">Our Projects</h4>
             <h1 className="display-5 mb-4">
@@ -466,12 +462,11 @@ export default function Home() {
               <div className="tab-content w-100">
                 <div className="tab-pane fade show active" id="tab-pane-1">
                   <div className="row g-4">
-                    <div className="col-md-6" style={{ minHeight: "350px" }}>
+                    <div className="col-md-6 tab-image-container">
                       <div className="position-relative h-100">
                         <img
-                          className="position-absolute img-fluid w-100 h-100"
+                          className="position-absolute img-fluid w-100 h-100 object-cover"
                           src="img/project-1.jpg"
-                          style={{ objectFit: "cover" }}
                           alt=""
                         />
                       </div>
@@ -506,12 +501,11 @@ export default function Home() {
                 </div>
                 <div className="tab-pane fade" id="tab-pane-2">
                   <div className="row g-4">
-                    <div className="col-md-6" style={{ minHeight: "350px" }}>
+                    <div className="col-md-6 tab-image-container">
                       <div className="position-relative h-100">
                         <img
-                          className="position-absolute img-fluid w-100 h-100"
+                          className="position-absolute img-fluid w-100 h-100 object-cover"
                           src="img/project-2.jpg"
-                          style={{ objectFit: "cover" }}
                           alt=""
                         />
                       </div>
@@ -546,12 +540,11 @@ export default function Home() {
                 </div>
                 <div className="tab-pane fade" id="tab-pane-3">
                   <div className="row g-4">
-                    <div className="col-md-6" style={{ minHeight: "350px" }}>
+                    <div className="col-md-6 tab-image-container">
                       <div className="position-relative h-100">
                         <img
-                          className="position-absolute img-fluid w-100 h-100"
+                          className="position-absolute img-fluid w-100 h-100 object-cover"
                           src="img/project-3.jpg"
-                          style={{ objectFit: "cover" }}
                           alt=""
                         />
                       </div>
@@ -586,12 +579,11 @@ export default function Home() {
                 </div>
                 <div className="tab-pane fade" id="tab-pane-4">
                   <div className="row g-4">
-                    <div className="col-md-6" style={{ minHeight: "350px" }}>
+                    <div className="col-md-6 tab-image-container">
                       <div className="position-relative h-100">
                         <img
-                          className="position-absolute img-fluid w-100 h-100"
+                          className="position-absolute img-fluid w-100 h-100 object-cover"
                           src="img/project-4.jpg"
-                          style={{ objectFit: "cover" }}
                           alt=""
                         />
                       </div>
@@ -635,9 +627,8 @@ export default function Home() {
       <div className="container-xxl py-5">
         <div className="container">
           <div
-            className="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp section-max-width"
             data-wow-delay="0.1s"
-            style={{ maxWidth: "600px" }}
           >
             <h4 className="section-title">Team Members</h4>
             <h1 className="display-5 mb-4">
@@ -800,31 +791,27 @@ export default function Home() {
                 <div className="col-12 col-sm-6">
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control form-input-height"
                     placeholder="Your Name"
-                    style={{ height: "55px" }}
                   />
                 </div>
                 <div className="col-12 col-sm-6">
                   <input
                     type="email"
-                    className="form-control"
+                    className="form-control form-input-height"
                     placeholder="Your Email"
-                    style={{ height: "55px" }}
                   />
                 </div>
                 <div className="col-12 col-sm-6">
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control form-input-height"
                     placeholder="Your Mobile"
-                    style={{ height: "55px" }}
                   />
                 </div>
                 <div className="col-12 col-sm-6">
                   <select
-                    className="form-select"
-                    style={{ height: "55px" }}
+                    className="form-select form-input-height"
                     defaultValue="Choose Service"
                   >
                     <option disabled>Choose Service</option>
@@ -837,11 +824,10 @@ export default function Home() {
                   <div className="date" id="date" data-target-input="nearest">
                     <input
                       type="text"
-                      className="form-control datetimepicker-input"
+                      className="form-control datetimepicker-input form-input-height"
                       placeholder="Choose Date"
                       data-target="#date"
                       data-toggle="datetimepicker"
-                      style={{ height: "55px" }}
                     />
                   </div>
                 </div>
@@ -849,11 +835,10 @@ export default function Home() {
                   <div className="time" id="time" data-target-input="nearest">
                     <input
                       type="text"
-                      className="form-control datetimepicker-input"
+                      className="form-control datetimepicker-input form-input-height"
                       placeholder="Choose Date"
                       data-target="#time"
                       data-toggle="datetimepicker"
-                      style={{ height: "55px" }}
                     />
                   </div>
                 </div>
@@ -880,9 +865,8 @@ export default function Home() {
       <div className="container-xxl py-5">
         <div className="container">
           <div
-            className="text-center mx-auto mb-5 wow fadeInUp"
+            className="text-center mx-auto mb-5 wow fadeInUp section-max-width"
             data-wow-delay="0.1s"
-            style={{ maxWidth: "600px" }}
           >
             <h4 className="section-title">Testimonial</h4>
             <h1 className="display-5 mb-4">

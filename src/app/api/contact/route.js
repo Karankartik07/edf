@@ -100,7 +100,7 @@ export async function POST(req) {
         <div style="margin: 30px 0; text-align: center;">
           <a href="edf-three.vercel.appe" 
              style="background-color: #303030; color: #ffffff; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
-             Explore Our Showcase
+             Explore Our Website
           </a>
         </div>
         

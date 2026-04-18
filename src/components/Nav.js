@@ -1,7 +1,25 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Link from "next/link";
 
 export default function Nav() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [pagesOpen, setPagesOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+    setPagesOpen(false);
+  };
+
+  const togglePages = (event) => {
+    event.preventDefault();
+    setPagesOpen((prev) => !prev);
+  };
+
   return (
     <>
       {/* Topbar Start */}
@@ -57,30 +75,51 @@ export default function Nav() {
       >
         <Link href="/" className="navbar-brand ms-4 ms-lg-0">
           <h1 className="text-primary m-0">
-            <img className="me-3 w-18 " src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1776430340/ekistique_design_fora_fdesc1.jpg"  alt="Icon" />
-        
+            <img
+              className="me-3 w-18 "
+              src="https://res.cloudinary.com/dxlykgx6w/image/upload/v1776430340/ekistique_design_fora_fdesc1.jpg"
+              alt="Icon"
+            />
           </h1>
         </Link>
 
         <button
           type="button"
-          className="navbar-toggler me-4"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarCollapse"
+          className="mobile-nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded={menuOpen}
+          onClick={toggleMenu}
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="hamburger-icon"></span>
         </button>
 
-        {/* FIX: collapse class add ki */}
-        <div className=" navbar-collapse" id="navbarCollapse">
+        <div
+          className={
+            menuOpen
+              ? "mobile-nav-menu mobile-nav-menu--open"
+              : "mobile-nav-menu"
+          }
+        >
           <div className="navbar-nav ms-auto p-4 p-lg-0">
-            <Link href="/" className="nav-item nav-link active">
+            <Link
+              href="/"
+              className="nav-item nav-link active"
+              onClick={closeMenu}
+            >
               Home
             </Link>
-            <Link href="/about" className="nav-item nav-link">
+            <Link
+              href="/about"
+              className="nav-item nav-link"
+              onClick={closeMenu}
+            >
               About
             </Link>
-            <Link href="/service" className="nav-item nav-link">
+            <Link
+              href="/service"
+              className="nav-item nav-link"
+              onClick={closeMenu}
+            >
               Services
             </Link>
 
@@ -88,41 +127,72 @@ export default function Nav() {
               <a
                 href="#"
                 className="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
+                onClick={togglePages}
               >
                 Pages
               </a>
-              <div className="dropdown-menu border-0 m-0">
-                <Link href="/feature" className="dropdown-item">
+              <div
+                className={
+                  pagesOpen
+                    ? "dropdown-menu border-0 m-0 show"
+                    : "dropdown-menu border-0 m-0"
+                }
+              >
+                <Link
+                  href="/feature"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
                   Our Features
                 </Link>
-                <Link href="/project" className="dropdown-item">
+                <Link
+                  href="/project"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
                   Our Projects
                 </Link>
-                <Link href="/team" className="dropdown-item">
+                <Link
+                  href="/team"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
                   Team Members
                 </Link>
-                <Link href="/appointment" className="dropdown-item">
+                <Link
+                  href="/appointment"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
                   Appointment
                 </Link>
-                <Link href="/testimonial" className="dropdown-item">
+                <Link
+                  href="/testimonial"
+                  className="dropdown-item"
+                  onClick={closeMenu}
+                >
                   Testimonial
                 </Link>
-                <Link href="/404" className="dropdown-item">
+                <Link href="/404" className="dropdown-item" onClick={closeMenu}>
                   404 Page
                 </Link>
               </div>
             </div>
 
-            <Link href="/contact" className="nav-item nav-link">
+            <Link
+              href="/contact"
+              className="nav-item nav-link"
+              onClick={closeMenu}
+            >
               Contact
             </Link>
           </div>
 
           {/* Desktop button */}
-          <Link
+          <Link style={{height:"50px"}}
             href="/appointment"
             className="btn btn-primary py-2 px-4 d-none d-lg-block"
+            onClick={closeMenu}
           >
             Appointment
           </Link>

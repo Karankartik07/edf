@@ -5,7 +5,7 @@ export default function CompanyInfo() {
     <div className="container-xxl py-5">
       <div className="container">
         <div
-          className="text-center mx-auto mb-5 wow fadeInUp"
+          className="text-center flex justify-center items-center flex-col mx-auto mb-5 wow fadeInUp"
           data-wow-delay="0.1s"
           style={{ maxWidth: "800px" }}
         >
