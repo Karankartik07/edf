@@ -50,18 +50,7 @@
     format: "LT",
   });
 
-  // Header carousel
-  $(document).ready(function () {
-    $(".header-carousel").owlCarousel({
-      autoplay: true,
-      smartSpeed: 1500,
-      loop: true,
-      nav: false,
-      dots: true,
-      items: 1,
-      dotsData: true,
-    });
-  });
+  // Header carousel removed because the homepage now uses Swiper.
 
   // Testimonials carousel
   $(".testimonial-carousel").owlCarousel({
@@ -71,6 +60,6 @@
     nav: false,
     dots: true,
     items: 1,
-    dotsData: true,
+    dotsData: false,
   });
 })(jQuery);
