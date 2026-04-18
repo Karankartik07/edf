@@ -66,7 +66,7 @@ export default function Contact() {
                   </div>
                   <div className="ms-4">
                     <p className="mb-2">Address</p>
-                    <h3 className="mb-0">Delhi NCR | Serving Pan India</h3>
+                    <h3 className="mb-0">Flat no.208, skg merlin apartment, Sector 13, Vasundhara, Ghaziabad, Uttar Pradesh 201012</h3>
                   </div>
                 </div>
                 <div className="bg-light d-flex align-items-center w-100 p-4 mb-4">
@@ -108,7 +108,7 @@ export default function Contact() {
         <iframe
           className="w-100 mb-n2"
           style={{ height: "450px" }}
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.1892395058435!2d77.3630165!3d28.654051900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb42dd0e8bb9%3A0x5de66af4778aa9f5!2sEkistique%20Design%20Fora%20(EDF)!5e0!3m2!1sen!2sin!4v1776495909032!5m2!1sen!2sin"
           frameBorder="0"
           allowFullScreen=""
           aria-hidden="false"

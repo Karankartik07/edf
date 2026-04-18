@@ -15,12 +15,12 @@ export default function Footer() {
               <h3 className="text-light mb-4">Address</h3>
               <p className="mb-2">
                 <i className="fa fa-map-marker-alt text-primary me-3"></i>123
-                Street, New York, USA
+                Flat no.208, skg merlin apartment, Sector 13, Vasundhara, Ghaziabad, Uttar Pradesh 201012
               </p>
-              <p className="mb-2">
+              <a href="tel:+918073123896" className="mb-2">
                 <i className="fa fa-phone-alt text-primary me-3"></i>+91
-                98101660610
-              </p>
+                8073123896
+              </a>
               <p className="mb-2">
                 <i className="fa fa-envelope text-primary me-3"></i>
                 info@example.com
