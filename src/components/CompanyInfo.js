@@ -128,7 +128,7 @@ export default function CompanyInfo() {
                   style={{ width: "150px", height: "150px" }}
                 /> */}
                 <h4>Arun Kumar</h4>
-                <p>Director</p>
+                <p>Chief Directing Manager</p>
               </div>
               <div className="col-md-4  mb-4 flex justify-center align-items-center flex-col ">
                 {/* <img

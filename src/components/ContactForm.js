@@ -67,7 +67,7 @@ export default function ContactForm() {
     setSubmitMessage("");
 
     try {
-      const response = await fetch("/api/contactus", {
+      const response = await fetch("/api/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
