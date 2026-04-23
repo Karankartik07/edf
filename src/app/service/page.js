@@ -37,214 +37,205 @@ export default function Service() {
       {/* Page Header End */}
 
       {/* Facts Start */}
-      <div className="container-xxl py-5">
-        <div className="container pt-5">
-          <div className="row g-4">
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.1s"
-            >
-              <div className="fact-item text-center bg-light h-100 p-5 pt-0">
-                <div className="fact-icon">
-                  <img src="/img/icons/icon-2.png" alt="Icon" />
-                </div>
-                <h3 className="mb-3">Design Approach</h3>
-                <p className="mb-0">
-                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                  lorem sed diam stet diam sed stet.
-                </p>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.3s"
-            >
-              <div className="fact-item text-center bg-light h-100 p-5 pt-0">
-                <div className="fact-icon">
-                  <img src="/img/icons/icon-3.png" alt="Icon" />
-                </div>
-                <h3 className="mb-3">Innovative Solutions</h3>
-                <p className="mb-0">
-                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                  lorem sed diam stet diam sed stet.
-                </p>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <div className="fact-item text-center bg-light h-100 p-5 pt-0">
-                <div className="fact-icon">
-                  <img src="/img/icons/icon-4.png" alt="Icon" />
-                </div>
-                <h3 className="mb-3">Project Management</h3>
-                <p className="mb-0">
-                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                  lorem sed diam stet diam sed stet.
-                </p>
-              </div>
-            </div>
+     <div className="container-xxl py-5">
+  <div className="container pt-5">
+    <div className="row g-4">
+      <div
+        className="col-lg-4 col-md-6 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div className="fact-item text-center bg-light h-100 p-5 pt-0">
+          <div className="fact-icon">
+            <img src="img/icons/icon-2.png" alt="Icon" />
           </div>
+          <h3 className="mb-3">Design Approach</h3>
+          <p className="mb-0">
+            We follow a thoughtful and client-focused design approach, blending creativity, functionality, and attention to detail to create spaces that truly inspire.
+          </p>
         </div>
       </div>
+      <div
+        className="col-lg-4 col-md-6 wow fadeInUp"
+        data-wow-delay="0.3s"
+      >
+        <div className="fact-item text-center bg-light h-100 p-5 pt-0">
+          <div className="fact-icon">
+            <img src="img/icons/icon-3.png" alt="Icon" />
+          </div>
+          <h3 className="mb-3">Innovative Solutions</h3>
+          <p className="mb-0">
+            We deliver smart and innovative solutions that combine modern trends, practical planning, and unique ideas to meet every project requirement.
+          </p>
+        </div>
+      </div>
+      <div
+        className="col-lg-4 col-md-6 wow fadeInUp"
+        data-wow-delay="0.5s"
+      >
+        <div className="fact-item text-center bg-light h-100 p-5 pt-0">
+          <div className="fact-icon">
+            <img src="img/icons/icon-4.png" alt="Icon" />
+          </div>
+          <h3 className="mb-3">Project Management</h3>
+          <p className="mb-0">
+            Our professional project management ensures smooth execution, timely delivery, quality control, and complete transparency from start to finish.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
       {/* Facts End */}
 
       {/* Service Start */}
       <div className="container-xxl py-5">
-        <div className="container">
-          <div
-            className="text-center mx-auto mb-5 wow fadeInUp"
-            data-wow-delay="0.1s"
-            style={{ maxWidth: "600px" }}
-          >
-            <h4 className="section-title">Our Services</h4>
-            <h1 className="display-5 mb-4">
-              We Focused On Modern Architecture And Interior Design
-            </h1>
-          </div>
-          <div className="row g-4">
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.1s"
-            >
-              <div className="service-item d-flex position-relative text-center h-100">
-                <img className="bg-img" src="/img/service-1.jpg" alt="" />
-                <div className="service-text p-5">
-                  <img
-                    className="mb-4"
-                    src="/img/icons/icon-5.png"
-                    alt="Icon"
-                  />
-                  <h3 className="mb-3">Architecture</h3>
-                  <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
-                  </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.3s"
-            >
-              <div className="service-item d-flex position-relative text-center h-100">
-                <img className="bg-img" src="/img/service-2.jpg" alt="" />
-                <div className="service-text p-5">
-                  <img
-                    className="mb-4"
-                    src="/img/icons/icon-6.png"
-                    alt="Icon"
-                  />
-                  <h3 className="mb-3">3D Animation</h3>
-                  <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
-                  </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <div className="service-item d-flex position-relative text-center h-100">
-                <img className="bg-img" src="/img/service-3.jpg" alt="" />
-                <div className="service-text p-5">
-                  <img
-                    className="mb-4"
-                    src="/img/icons/icon-7.png"
-                    alt="Icon"
-                  />
-                  <h3 className="mb-3">House Planning</h3>
-                  <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
-                  </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.1s"
-            >
-              <div className="service-item d-flex position-relative text-center h-100">
-                <img className="bg-img" src="/img/service-4.jpg" alt="" />
-                <div className="service-text p-5">
-                  <img
-                    className="mb-4"
-                    src="/img/icons/icon-8.png"
-                    alt="Icon"
-                  />
-                  <h3 className="mb-3">Interior Design</h3>
-                  <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
-                  </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.3s"
-            >
-              <div className="service-item d-flex position-relative text-center h-100">
-                <img className="bg-img" src="/img/service-5.jpg" alt="" />
-                <div className="service-text p-5">
-                  <img
-                    className="mb-4"
-                    src="/img/icons/icon-9.png"
-                    alt="Icon"
-                  />
-                  <h3 className="mb-3">Renovation</h3>
-                  <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
-                  </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <div className="service-item d-flex position-relative text-center h-100">
-                <img className="bg-img" src="/img/service-6.jpg" alt="" />
-                <div className="service-text p-5">
-                  <img
-                    className="mb-4"
-                    src="/img/icons/icon-10.png"
-                    alt="Icon"
-                  />
-                  <h3 className="mb-3">Construction</h3>
-                  <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
-                  </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
-                  </a>
-                </div>
-              </div>
-            </div>
+  <div className="container">
+    <div
+      className="text-center mx-auto mb-5 wow fadeInUp"
+      data-wow-delay="0.1s"
+      style={{ maxWidth: "600px" }}
+    >
+      <h4 className="section-title">Our Services</h4>
+      <h1 className="display-5 mb-4">
+        We Focused On Modern Architecture And Interior Design
+      </h1>
+    </div>
+    <div className="row g-4">
+      <div
+        className="col-lg-4 col-md-6 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div className="service-item d-flex position-relative text-center h-100">
+          <img className="bg-img" src="/img/service-1.jpg" alt="" />
+          <div className="service-text p-5">
+            <img
+              className="mb-4"
+              src="/img/icons/icon-5.png"
+              alt="Icon"
+            />
+            <h3 className="mb-3">Architecture</h3>
+            <p className="mb-4">
+              Innovative and functional architectural designs crafted to bring your vision to life.
+            </p>
+            <a className="btn" href="">
+              <i className="fa fa-plus text-primary me-3"></i>Read More
+            </a>
           </div>
         </div>
       </div>
+      <div
+        className="col-lg-4 col-md-6 wow fadeInUp"
+        data-wow-delay="0.3s"
+      >
+        <div className="service-item d-flex position-relative text-center h-100">
+          <img className="bg-img" src="/img/service-2.jpg" alt="" />
+          <div className="service-text p-5">
+            <img
+              className="mb-4"
+              src="/img/icons/icon-6.png"
+              alt="Icon"
+            />
+            <h3 className="mb-3">3D Animation</h3>
+            <p className="mb-4">
+              Realistic 3D visualizations that help you experience your project before execution.
+            </p>
+            <a className="btn" href="">
+              <i className="fa fa-plus text-primary me-3"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-lg-4 col-md-6 wow fadeInUp"
+        data-wow-delay="0.5s"
+      >
+        <div className="service-item d-flex position-relative text-center h-100">
+          <img className="bg-img" src="/img/service-3.jpg" alt="" />
+          <div className="service-text p-5">
+            <img
+              className="mb-4"
+              src="/img/icons/icon-7.png"
+              alt="Icon"
+            />
+            <h3 className="mb-3">House Planning</h3>
+            <p className="mb-4">
+              Smart and efficient house layouts designed for comfort, style, and practicality.
+            </p>
+            <a className="btn" href="">
+              <i className="fa fa-plus text-primary me-3"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-lg-4 col-md-6 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div className="service-item d-flex position-relative text-center h-100">
+          <img className="bg-img" src="/img/service-4.jpg" alt="" />
+          <div className="service-text p-5">
+            <img
+              className="mb-4"
+              src="/img/icons/icon-8.png"
+              alt="Icon"
+            />
+            <h3 className="mb-3">Interior Design</h3>
+            <p className="mb-4">
+              Elegant interior solutions that combine beauty, functionality, and modern living.
+            </p>
+            <a className="btn" href="">
+              <i className="fa fa-plus text-primary me-3"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-lg-4 col-md-6 wow fadeInUp"
+        data-wow-delay="0.3s"
+      >
+        <div className="service-item d-flex position-relative text-center h-100">
+          <img className="bg-img" src="/img/service-5.jpg" alt="" />
+          <div className="service-text p-5">
+            <img
+              className="mb-4"
+              src="/img/icons/icon-9.png"
+              alt="Icon"
+            />
+            <h3 className="mb-3">Renovation</h3>
+            <p className="mb-4">
+              Transforming existing spaces into refreshed, stylish, and highly functional environments.
+            </p>
+            <a className="btn" href="">
+              <i className="fa fa-plus text-primary me-3"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-lg-4 col-md-6 wow fadeInUp"
+        data-wow-delay="0.5s"
+      >
+        <div className="service-item d-flex position-relative text-center h-100">
+          <img className="bg-img" src="/img/service-6.jpg" alt="" />
+          <div className="service-text p-5">
+            <img
+              className="mb-4"
+              src="/img/icons/icon-10.png"
+              alt="Icon"
+            />
+            <h3 className="mb-3">Construction</h3>
+            <p className="mb-4">
+              Reliable end-to-end construction services ensuring quality, precision, and timely delivery.
+            </p>
+            <a className="btn" href="">
+              <i className="fa fa-plus text-primary me-3"></i>Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
       {/* Service End */}
 
       {/* Company Info Start */}

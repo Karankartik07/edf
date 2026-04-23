@@ -14,8 +14,9 @@ export default function Footer() {
             <div className="col-lg-3 col-md-6">
               <h3 className="text-light mb-4">Address</h3>
               <p className="mb-2">
-                <i className="fa fa-map-marker-alt text-primary me-3"></i>123
-                Flat no.208, skg merlin apartment, Sector 13, Vasundhara, Ghaziabad, Uttar Pradesh 201012
+                <i className="fa fa-map-marker-alt text-primary me-3"></i>
+                SKG Merlin apartment, Sector 13, Vasundhara, Ghaziabad, Uttar
+                Pradesh 201012
               </p>
               <a href="tel:+918073123896" className="mb-2">
                 <i className="fa fa-phone-alt text-primary me-3"></i>+91
@@ -23,9 +24,11 @@ export default function Footer() {
               </a>
               <p className="mb-2">
                 <i className="fa fa-envelope text-primary me-3"></i>
-                ekistiquedesignfora@gmail.com
+                <a href="mailto:ekistiquedesignfora@gmail.com">
+                  ekistiquedesignfora@gmail.com
+                </a>
               </p>
-              <div className="d-flex pt-2">
+              {/* <div className="d-flex pt-2">
                 <a className="btn btn-square btn-outline-body me-1" href="">
                   <i className="fab fa-twitter"></i>
                 </a>
@@ -38,7 +41,7 @@ export default function Footer() {
                 <a className="btn btn-square btn-outline-body me-0" href="">
                   <i className="fab fa-linkedin-in"></i>
                 </a>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-3 col-md-6">
               <h3 className="text-light mb-4">Services</h3>
@@ -63,7 +66,7 @@ export default function Footer() {
               <Link className="btn btn-link" href="/about">
                 About Us
               </Link>
-              <Link className="btn btn-link" href="/contact">
+              <Link className="btn btn-link" href="/contact-us">
                 Contact Us
               </Link>
               <Link className="btn btn-link" href="/service">
@@ -72,7 +75,7 @@ export default function Footer() {
               <a className="btn btn-link" href="">
                 Terms & Condition
               </a>
-              <a className="btn btn-link" href="">
+              <a className="btn btn-link" href="/contact-us">
                 Support
               </a>
             </div>
@@ -102,10 +105,14 @@ export default function Footer() {
           <div className="container">
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a href="#">Ekistique Design Fora</a>, All Right Reserved.
+                &copy; <a href="#">Ekistique Design Fora</a>, All Right
+                Reserved.
               </div>
               <div className="col-md-6 text-center text-md-end">
-                Designed By <a href="https://www.linkedin.com/in/karan-kartik-585245241/">KK</a>
+                Designed By{" "}
+                <a href="https://www.linkedin.com/in/karan-kartik-585245241/">
+                  KK
+                </a>
                 <br /> Distributed By:{" "}
                 <a
                   className="border-bottom"

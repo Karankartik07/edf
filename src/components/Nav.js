@@ -34,7 +34,10 @@ export default function Nav() {
                 <i className="fa fa-phone-alt text-primary me-2"></i>+91
                 8073123896
               </a>
-              <a className="text-body px-2" href="mailto:ekistiquedesignfora@gmail.com">
+              <a
+                className="text-body px-2"
+                href="mailto:ekistiquedesignfora@gmail.com"
+              >
                 <i className="fa fa-envelope-open text-primary me-2"></i>
                 ekistiquedesignfora@gmail.com
               </a>
@@ -50,8 +53,10 @@ export default function Nav() {
               </Link>
             </div>
             <div className="h-100 d-inline-flex align-items-center">
-              
-              <a className="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/ekistiquedesignfora_?igsh=YnExOGNyenZucHUx">
+              <a
+                className="btn btn-sm-square btn-outline-body me-0"
+                href="https://www.instagram.com/ekistiquedesignfora_?igsh=YnExOGNyenZucHUx"
+              >
                 <i className="fab fa-instagram"></i>
               </a>
             </div>
@@ -172,16 +177,17 @@ export default function Nav() {
             </div> */}
 
             <Link
-              href="/contact"
+              href="/contact-us"
               className="nav-item nav-link"
               onClick={closeMenu}
             >
-              Contact
+              Contact us
             </Link>
           </div>
 
           {/* Desktop button */}
-          <Link style={{height:"50px"}}
+          <Link
+            style={{ height: "50px" }}
             href="tel:+918073123896"
             className="btn btn-primary py-2 px-4 d-none d-lg-block"
             onClick={closeMenu}

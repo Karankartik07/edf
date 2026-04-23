@@ -6,7 +6,7 @@ export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    subject: "",
+    phone: "",
     message: "",
   });
   const [errors, setErrors] = useState({});
@@ -41,8 +41,11 @@ export default function ContactForm() {
       newErrors.email = "Please enter a valid email address";
     }
 
-    if (!formData.subject.trim()) {
-      newErrors.subject = "Subject is required";
+    if (!formData.phone.trim()) {
+      newErrors.phone = "Phone number is required";
+    } else if (!/^[0-9]{10,}$/.test(formData.phone.replace(/[\s-]/g, ""))) {
+      newErrors.phone =
+        "Please enter a valid phone number (at least 10 digits)";
     }
 
     if (!formData.message.trim()) {
@@ -64,7 +67,7 @@ export default function ContactForm() {
     setSubmitMessage("");
 
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("/api/contactus", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -72,7 +75,7 @@ export default function ContactForm() {
         body: JSON.stringify({
           name: formData.name,
           email: formData.email,
-          subject: formData.subject,
+          phone: formData.phone,
           website: formData.message, // Mapping message to website as per API
         }),
       });
@@ -84,7 +87,7 @@ export default function ContactForm() {
         setFormData({
           name: "",
           email: "",
-          subject: "",
+          phone: "",
           message: "",
         });
       } else {
@@ -101,11 +104,7 @@ export default function ContactForm() {
 
   return (
     <>
-      <p className="mb-4">
-        The contact form is currently inactive. Get a functional and working
-        contact form with Ajax & PHP in a few minutes. Just copy and paste the
-        files, add a little code and you're done.{" "}
-      </p>
+      <h2 className="mb-2 text-center">Contact us</h2>
       <form onSubmit={handleSubmit}>
         <div className="row g-3">
           <div className="col-md-6">
@@ -143,16 +142,16 @@ export default function ContactForm() {
           <div className="col-12">
             <div className="form-floating">
               <input
-                type="text"
-                className={`form-control ${errors.subject ? "is-invalid" : ""}`}
-                id="subject"
-                placeholder="Subject"
-                value={formData.subject}
+                type="tel"
+                className={`form-control ${errors.phone ? "is-invalid" : ""}`}
+                id="phone"
+                placeholder="Phone Number"
+                value={formData.phone}
                 onChange={handleChange}
               />
-              <label htmlFor="subject">Subject</label>
-              {errors.subject && (
-                <div className="invalid-feedback">{errors.subject}</div>
+              <label htmlFor="phone">Phone Number</label>
+              {errors.phone && (
+                <div className="invalid-feedback">{errors.phone}</div>
               )}
             </div>
           </div>

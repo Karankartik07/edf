@@ -5,11 +5,11 @@ export const dynamic = "force-dynamic";
 
 export async function POST(req) {
   try {
-    const { name, email, subject, website } = await req.json();
+    const { name, email, phone, website } = await req.json();
 
-    if (!name || !email) {
+    if (!name || !email || !phone) {
       return Response.json(
-        { success: false, error: "Name and Email are required" },
+        { success: false, error: "Name, Email, and Phone are required" },
         { status: 400 },
       );
     }
@@ -51,8 +51,8 @@ export async function POST(req) {
             </td>
           </tr>
           <tr style="background-color: #f9f9f9;">
-            <td style="padding: 12px; border: 1px solid #eee; font-weight: bold;">Subject:</td>
-            <td style="padding: 12px; border: 1px solid #eee;">${subject || "Not Provided"}</td>
+            <td style="padding: 12px; border: 1px solid #eee; font-weight: bold;">Phone Number:</td>
+            <td style="padding: 12px; border: 1px solid #eee;">${phone || "Not Provided"}</td>
           </tr>
           <tr>
             <td style="padding: 12px; border: 1px solid #eee; font-weight: bold;">Message : </td>

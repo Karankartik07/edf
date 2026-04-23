@@ -1,5 +1,5 @@
-import CompanyInfo from "../../components/CompanyInfo";
-import ContactForm from "../../components/ContactForm";
+import ContactForm from "@/components/ContactForm";
+// import ContactForm from "../../components/contactForm";
 
 export default function Contact() {
   return (
@@ -66,7 +66,10 @@ export default function Contact() {
                   </div>
                   <div className="ms-4">
                     <p className="mb-2">Address</p>
-                    <h3 className="mb-0">Flat no.208, skg merlin apartment, Sector 13, Vasundhara, Ghaziabad, Uttar Pradesh 201012</h3>
+                    <h3 className="mb-0">
+                      SKG Merlin apartment, Sector 13, Vasundhara,
+                      Ghaziabad, Uttar Pradesh 201012
+                    </h3>
                   </div>
                 </div>
                 <div className="bg-light d-flex align-items-center w-100 p-4 mb-4">
@@ -90,7 +93,7 @@ export default function Contact() {
                   </div>
                   <div className="ms-4">
                     <p className="mb-2">Mail Us Now</p>
-                    <h3 className="mb-0">info@ekistiquedesignfora.com</h3>
+                    <h3 className="mb-0">ekistiquedesignfora@gmail.com</h3>
                   </div>
                 </div>
               </div>

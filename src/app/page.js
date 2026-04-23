@@ -7,15 +7,13 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import ContactForm from "@/components/ContactForm";
+// import ContactForm from "@/components/contactForm";
 
 export default function Home() {
   return (
     <>
       {/* Carousel Start */}
-      <div
-        className="container-fluid p-0  wow fadeIn"
-        data-wow-delay="0.1s"
-      >
+      <div className="container-fluid p-0  wow fadeIn" data-wow-delay="0.1s">
         <Swiper
           modules={[Autoplay, Pagination]}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -23,10 +21,15 @@ export default function Home() {
           pagination={{ clickable: true }}
           className="swiper-carousel position-relative"
         >
-          <SwiperSlide >
-            <div  className="owl-carousel-item position-relative">
-              <img style={{minHeight:"400px"}} className="img-fluid" src="img/carousel-1.jpg" alt="" />
-              <div  className="owl-carousel-inner">
+          <SwiperSlide>
+            <div className="owl-carousel-item position-relative">
+              <img
+                style={{ minHeight: "400px" }}
+                className="img-fluid"
+                src="img/carousel-1.jpg"
+                alt=""
+              />
+              <div className="owl-carousel-inner">
                 <div className="container">
                   <div className="row justify-content-start">
                     <div className="col-10 col-lg-8">
@@ -51,7 +54,12 @@ export default function Home() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="owl-carousel-item position-relative">
-              <img style={{minHeight:"400px"}} className="img-fluid" src="img/carousel-2.jpg" alt="" />
+              <img
+                style={{ minHeight: "400px" }}
+                className="img-fluid"
+                src="img/carousel-2.jpg"
+                alt=""
+              />
               <div className="owl-carousel-inner">
                 <div className="container">
                   <div className="row justify-content-start">
@@ -77,7 +85,12 @@ export default function Home() {
           </SwiperSlide>
           <SwiperSlide>
             <div className="owl-carousel-item position-relative">
-              <img style={{minHeight:"400px"}} className="img-fluid" src="img/carousel-3.jpg" alt="" />
+              <img
+                style={{ minHeight: "400px" }}
+                className="img-fluid"
+                src="img/carousel-3.jpg"
+                alt=""
+              />
               <div className="owl-carousel-inner">
                 <div className="container">
                   <div className="row justify-content-start">
@@ -122,8 +135,9 @@ export default function Home() {
                 </div>
                 <h3 className="mb-3">Design Approach</h3>
                 <p className="mb-0">
-                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                  lorem sed diam stet diam sed stet.
+                  We follow a thoughtful and client-focused design approach,
+                  blending creativity, functionality, and attention to detail to
+                  create spaces that truly inspire.
                 </p>
               </div>
             </div>
@@ -137,8 +151,9 @@ export default function Home() {
                 </div>
                 <h3 className="mb-3">Innovative Solutions</h3>
                 <p className="mb-0">
-                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                  lorem sed diam stet diam sed stet.
+                  We deliver smart and innovative solutions that combine modern
+                  trends, practical planning, and unique ideas to meet every
+                  project requirement.
                 </p>
               </div>
             </div>
@@ -152,8 +167,9 @@ export default function Home() {
                 </div>
                 <h3 className="mb-3">Project Management</h3>
                 <p className="mb-0">
-                  Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                  lorem sed diam stet diam sed stet.
+                  Our professional project management ensures smooth execution,
+                  timely delivery, quality control, and complete transparency
+                  from start to finish.
                 </p>
               </div>
             </div>
@@ -178,14 +194,17 @@ export default function Home() {
                 A Creative Architecture Agency For Your Dream Home
               </h1>
               <p>
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+                At our creative architecture agency, we believe every dream home
+                begins with a unique vision. We specialize in designing elegant,
+                functional, and inspiring spaces that reflect your lifestyle and
+                personality.
               </p>
               <p className="mb-4">
-                Stet no et lorem dolor et diam, amet duo ut dolore vero eos. No
-                stet est diam rebum amet diam ipsum. Clita clita labore, dolor
-                duo nonumy clita sit at, sed sit sanctus dolor eos.
+                From innovative architectural planning to stunning interiors and
+                seamless execution, our team is dedicated to turning ideas into
+                reality. With a perfect blend of creativity, quality, and
+                attention to detail, we create homes that are not only beautiful
+                but also built for comfort and lasting value.
               </p>
               <div className="d-flex align-items-center mb-5">
                 <div className="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary counter-container">
@@ -200,7 +219,7 @@ export default function Home() {
                 </div>
               </div>
               <a className="btn btn-primary py-3 px-5" href="">
-                Read More
+                Contact us
               </a>
             </div>
           </div>
@@ -231,11 +250,11 @@ export default function Home() {
                   <img className="mb-4" src="img/icons/icon-5.png" alt="Icon" />
                   <h3 className="mb-3">Architecture</h3>
                   <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
+                    Innovative and functional architectural designs crafted to
+                    bring your vision to life.
                   </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
+                  <a className="btn" href="/contact-us">
+                    <i className="fa fa-plus text-primary me-3"></i>Contact us
                   </a>
                 </div>
               </div>
@@ -250,11 +269,11 @@ export default function Home() {
                   <img className="mb-4" src="img/icons/icon-6.png" alt="Icon" />
                   <h3 className="mb-3">3D Animation</h3>
                   <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
+                    Realistic 3D visualizations that help you experience your
+                    project before execution.
                   </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
+                  <a className="btn" href="/contact-us">
+                    <i className="fa fa-plus text-primary me-3"></i>Contact us
                   </a>
                 </div>
               </div>
@@ -269,11 +288,11 @@ export default function Home() {
                   <img className="mb-4" src="img/icons/icon-7.png" alt="Icon" />
                   <h3 className="mb-3">House Planning</h3>
                   <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
+                    Smart and efficient house layouts designed for comfort,
+                    style, and practicality.
                   </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
+                  <a className="btn" href="/contact-us">
+                    <i className="fa fa-plus text-primary me-3"></i>Contact us
                   </a>
                 </div>
               </div>
@@ -288,11 +307,11 @@ export default function Home() {
                   <img className="mb-4" src="img/icons/icon-8.png" alt="Icon" />
                   <h3 className="mb-3">Interior Design</h3>
                   <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
+                    Elegant interior solutions that combine beauty,
+                    functionality, and modern living.
                   </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
+                  <a className="btn" href="/contact-us">
+                    <i className="fa fa-plus text-primary me-3"></i>Contact us
                   </a>
                 </div>
               </div>
@@ -307,11 +326,11 @@ export default function Home() {
                   <img className="mb-4" src="img/icons/icon-9.png" alt="Icon" />
                   <h3 className="mb-3">Renovation</h3>
                   <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
+                    Transforming existing spaces into refreshed, stylish, and
+                    highly functional environments.
                   </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
+                  <a className="btn" href="/contact-us">
+                    <i className="fa fa-plus text-primary me-3"></i>Contact us
                   </a>
                 </div>
               </div>
@@ -330,11 +349,11 @@ export default function Home() {
                   />
                   <h3 className="mb-3">Construction</h3>
                   <p className="mb-4">
-                    Erat ipsum justo amet duo et elitr dolor, est duo duo eos
-                    lorem sed diam stet diam sed stet.
+                    Reliable end-to-end construction services ensuring quality,
+                    precision, and timely delivery.
                   </p>
-                  <a className="btn" href="">
-                    <i className="fa fa-plus text-primary me-3"></i>Read More
+                  <a className="btn" href="/contact-us">
+                    <i className="fa fa-plus text-primary me-3"></i>Contact us
                   </a>
                 </div>
               </div>
@@ -354,9 +373,13 @@ export default function Home() {
                 Why You Should Trust Us? Learn More About Us!
               </h1>
               <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+                We are committed to delivering exceptional architecture,
+                interior design, and construction services with creativity,
+                quality, and professionalism. Our experienced team focuses on
+                understanding your vision and transforming it into elegant,
+                functional, and lasting spaces. With transparent communication,
+                timely delivery, and attention to every detail, we ensure a
+                smooth and stress-free experience from concept to completion.
               </p>
               <div className="row g-4">
                 <div className="col-12">
@@ -369,8 +392,9 @@ export default function Home() {
                     <div className="ms-4">
                       <h3>Design Approach</h3>
                       <p className="mb-0">
-                        Erat ipsum justo amet duo et elitr dolor, est duo duo
-                        eos lorem sed diam stet diam sed stet.
+                        Our design approach is centered around creativity,
+                        functionality, and personalization, ensuring every
+                        project reflects your lifestyle and aspirations.
                       </p>
                     </div>
                   </div>
@@ -385,8 +409,9 @@ export default function Home() {
                     <div className="ms-4">
                       <h3>Innovative Solutions</h3>
                       <p className="mb-0">
-                        Erat ipsum justo amet duo et elitr dolor, est duo duo
-                        eos lorem sed diam stet diam sed stet.
+                        We provide modern and innovative solutions that combine
+                        smart planning, latest trends, and practical execution
+                        for outstanding results.
                       </p>
                     </div>
                   </div>
@@ -401,8 +426,9 @@ export default function Home() {
                     <div className="ms-4">
                       <h3>Project Management</h3>
                       <p className="mb-0">
-                        Erat ipsum justo amet duo et elitr dolor, est duo duo
-                        eos lorem sed diam stet diam sed stet.
+                        Our expert project management guarantees seamless
+                        coordination, quality workmanship, on-time delivery, and
+                        complete client satisfaction throughout the project.
                       </p>
                     </div>
                   </div>
@@ -431,6 +457,12 @@ export default function Home() {
             <h1 className="display-5 mb-4">
               Visit Our Latest Projects And Our Innovative Works
             </h1>
+            <p className="mb-0">
+              Explore our portfolio of thoughtfully designed projects that
+              showcase creativity, quality, and modern architecture. From
+              residential spaces to commercial landmarks, each project reflects
+              our commitment to excellence, innovation, and client satisfaction.
+            </p>
           </div>
           <div className="row g-4 wow fadeInUp" data-wow-delay="0.3s">
             <div className="col-lg-4">
@@ -457,7 +489,7 @@ export default function Home() {
                   data-bs-target="#tab-pane-3"
                   type="button"
                 >
-                  <h3 className="m-0">03. Mexwel Buiding</h3>
+                  <h3 className="m-0">03. Mexwel Building</h3>
                 </button>
                 <button
                   className="nav-link w-100 d-flex align-items-center text-start p-4 mb-0"
@@ -487,24 +519,31 @@ export default function Home() {
                         25 Years Of Experience In Architecture Industry
                       </h1>
                       <p className="mb-4">
-                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                        sit. Aliqu diam amet diam et eos. Clita erat ipsum et
-                        lorem et sit, sed stet lorem sit clita duo justo magna
-                        dolore erat amet
+                        With over 25 years of industry experience, we have
+                        successfully delivered innovative architectural,
+                        interior, and construction projects with trust, quality,
+                        and precision. Our expertise allows us to create spaces
+                        that are functional, stylish, and built to last.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>Design
-                        Approach
+                        Approach – Personalized designs tailored to your needs
+                        and lifestyle.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>
-                        Innovative Solutions
+                        Innovative Solutions – Smart ideas combined with modern
+                        technology and trends.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>Project
-                        Management
+                        Management – Smooth execution with timely delivery and
+                        complete transparency.
                       </p>
-                      <a href="tel:+918073123896" className="btn btn-primary py-3 px-5 mt-3">
+                      <a
+                        href="tel:+918073123896"
+                        className="btn btn-primary py-3 px-5 mt-3"
+                      >
                         Call Now
                       </a>
                     </div>
@@ -526,24 +565,31 @@ export default function Home() {
                         25 Years Of Experience In Architecture Industry
                       </h1>
                       <p className="mb-4">
-                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                        sit. Aliqu diam amet diam et eos. Clita erat ipsum et
-                        lorem et sit, sed stet lorem sit clita duo justo magna
-                        dolore erat amet
+                        With over 25 years of industry experience, we have
+                        successfully delivered innovative architectural,
+                        interior, and construction projects with trust, quality,
+                        and precision. Our expertise allows us to create spaces
+                        that are functional, stylish, and built to last.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>Design
-                        Approach
+                        Approach – Personalized designs tailored to your needs
+                        and lifestyle.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>
-                        Innovative Solutions
+                        Innovative Solutions – Smart ideas combined with modern
+                        technology and trends.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>Project
-                        Management
+                        Management – Smooth execution with timely delivery and
+                        complete transparency.
                       </p>
-                      <a href="tel:+918073123896" className="btn btn-primary py-3 px-5 mt-3">
+                      <a
+                        href="tel:+918073123896"
+                        className="btn btn-primary py-3 px-5 mt-3"
+                      >
                         Call Now
                       </a>
                     </div>
@@ -565,24 +611,31 @@ export default function Home() {
                         25 Years Of Experience In Architecture Industry
                       </h1>
                       <p className="mb-4">
-                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                        sit. Aliqu diam amet diam et eos. Clita erat ipsum et
-                        lorem et sit, sed stet lorem sit clita duo justo magna
-                        dolore erat amet
+                        With over 25 years of industry experience, we have
+                        successfully delivered innovative architectural,
+                        interior, and construction projects with trust, quality,
+                        and precision. Our expertise allows us to create spaces
+                        that are functional, stylish, and built to last.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>Design
-                        Approach
+                        Approach – Personalized designs tailored to your needs
+                        and lifestyle.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>
-                        Innovative Solutions
+                        Innovative Solutions – Smart ideas combined with modern
+                        technology and trends.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>Project
-                        Management
+                        Management – Smooth execution with timely delivery and
+                        complete transparency.
                       </p>
-                      <a href="tel:+918073123896" className="btn btn-primary py-3 px-5 mt-3">
+                      <a
+                        href="tel:+918073123896"
+                        className="btn btn-primary py-3 px-5 mt-3"
+                      >
                         Call Now
                       </a>
                     </div>
@@ -604,24 +657,31 @@ export default function Home() {
                         25 Years Of Experience In Architecture Industry
                       </h1>
                       <p className="mb-4">
-                        Tempor erat elitr rebum at clita. Diam dolor diam ipsum
-                        sit. Aliqu diam amet diam et eos. Clita erat ipsum et
-                        lorem et sit, sed stet lorem sit clita duo justo magna
-                        dolore erat amet
+                        With over 25 years of industry experience, we have
+                        successfully delivered innovative architectural,
+                        interior, and construction projects with trust, quality,
+                        and precision. Our expertise allows us to create spaces
+                        that are functional, stylish, and built to last.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>Design
-                        Approach
+                        Approach – Personalized designs tailored to your needs
+                        and lifestyle.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>
-                        Innovative Solutions
+                        Innovative Solutions – Smart ideas combined with modern
+                        technology and trends.
                       </p>
                       <p>
                         <i className="fa fa-check text-primary me-3"></i>Project
-                        Management
+                        Management – Smooth execution with timely delivery and
+                        complete transparency.
                       </p>
-                      <a href="tel:+918073123896" className="btn btn-primary py-3 px-5 mt-3">
+                      <a
+                        href="tel:+918073123896"
+                        className="btn btn-primary py-3 px-5 mt-3"
+                      >
                         Call Now
                       </a>
                     </div>
@@ -756,7 +816,7 @@ export default function Home() {
       <div className="container-xxl py-5">
         <div className="container">
           <div className="row g-5">
-            <ContactForm/>
+            <ContactForm />
           </div>
         </div>
       </div>
@@ -771,53 +831,70 @@ export default function Home() {
           >
             <h4 className="section-title">Testimonial</h4>
             <h1 className="display-5 mb-4">
-              Thousands Of Customers Who Trust Us And Our Services
+              Premium Indian Client Testimonials
             </h1>
           </div>
-          <div
-            className="owl-carousel testimonial-carousel wow fadeInUp"
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            autoplay={{ delay: 3000, disableOnInteraction: false }}
+            loop={true}
+            // pagination={{ clickable: true }}
+            className="testimonial-carousel wow fadeInUp"
             data-wow-delay="0.1s"
           >
-            <div
-              className="testimonial-item text-center"
-              data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>"
-            >
-              <p className="fs-5">
-                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
-                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
-                clita erat magna elitr erat sit sit erat at rebum justo sea
-                clita.
-              </p>
-              <h3>Client Name</h3>
-              <span className="text-primary">Profession</span>
-            </div>
-            <div
-              className="testimonial-item text-center"
-              data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>"
-            >
-              <p className="fs-5">
-                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
-                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
-                clita erat magna elitr erat sit sit erat at rebum justo sea
-                clita.
-              </p>
-              <h3>Client Name</h3>
-              <span className="text-primary">Profession</span>
-            </div>
-            <div
-              className="testimonial-item text-center"
-              data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>"
-            >
-              <p className="fs-5">
-                Clita clita tempor justo dolor ipsum amet kasd amet duo justo
-                duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
-                clita erat magna elitr erat sit sit erat at rebum justo sea
-                clita.
-              </p>
-              <h3>Client Name</h3>
-              <span className="text-primary">Profession</span>
-            </div>
-          </div>
+            {[
+              {
+                quote:
+                  "Working with Ekistique Design Fora was the best decision for our home interiors. Their team understood our lifestyle perfectly and transformed our apartment into a modern, luxurious space. Every detail was thoughtfully designed.",
+                name: "Rohan Mehta",
+                location: "Gurgaon",
+                project: "Residential Project – Delhi NCR",
+              },
+              {
+                quote:
+                  "From concept to execution, the entire process was seamless. The quality of materials, finishing, and professionalism exceeded our expectations. Highly recommended for premium home interiors.",
+                name: "Priya Sharma",
+                location: "Noida",
+                project: "Villa Interior – Noida",
+              },
+              {
+                quote:
+                  "They redesigned our corporate office with elegance and functionality. Our employees love the new environment, and clients are always impressed when they visit.",
+                name: "Ankit Verma",
+                location: "Bangalore",
+                project: "Office Space – Bangalore",
+              },
+              {
+                quote:
+                  "Their design sense is exceptional. They blended sophistication with comfort beautifully. We truly felt heard throughout the project.",
+                name: "Sneha Kapoor",
+                location: "Mumbai",
+                project: "Luxury Apartment – Mumbai",
+              },
+              {
+                quote:
+                  "Ekistique Design Fora helped us create a premium retail experience for our customers. Footfall and engagement improved after the renovation.",
+                name: "Manish Agarwal",
+                location: "Jaipur",
+                project: "Retail Store – Jaipur",
+              },
+              {
+                quote:
+                  "Their team delivered exactly what they promised — classy design, timely completion, and unmatched attention to detail.",
+                name: "Neha Jain",
+                location: "Pune",
+                project: "Penthouse – Pune",
+              },
+            ].map((testimonial, index) => (
+              <SwiperSlide key={index}>
+                <div className="testimonial-item text-center">
+                  <p className="fs-5">{testimonial.quote}</p>
+                  <h3>{testimonial.name}</h3>
+                  <span className="text-primary">{testimonial.location}</span>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
       {/* Testimonial End */}
