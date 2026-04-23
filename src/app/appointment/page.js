@@ -75,7 +75,7 @@ export default function Appointment() {
                     </div>
                     <div className="ms-4">
                       <p className="mb-2">Mail Us Now</p>
-                      <h3 className="mb-0">info@example.com</h3>
+                      <h3 className="mb-0">ekistiquedesignfora@gmail.com</h3>
                     </div>
                   </div>
                 </div>

@@ -34,9 +34,9 @@ export default function Nav() {
                 <i className="fa fa-phone-alt text-primary me-2"></i>+91
                 8073123896
               </a>
-              <a className="text-body px-2" href="mailto:info@example.com">
+              <a className="text-body px-2" href="mailto:ekistiquedesignfora@gmail.com">
                 <i className="fa fa-envelope-open text-primary me-2"></i>
-                info@example.com
+                ekistiquedesignfora@gmail.com
               </a>
             </div>
           </div>

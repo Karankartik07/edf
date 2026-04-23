@@ -23,7 +23,7 @@ export default function Footer() {
               </a>
               <p className="mb-2">
                 <i className="fa fa-envelope text-primary me-3"></i>
-                info@example.com
+                ekistiquedesignfora@gmail.com
               </p>
               <div className="d-flex pt-2">
                 <a className="btn btn-square btn-outline-body me-1" href="">
