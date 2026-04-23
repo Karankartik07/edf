@@ -35,7 +35,7 @@ export default function Team() {
       {/* Page Header End */}
 
       {/* Team Start */}
-      <div className="container-xxl py-5">
+      {/* <div className="container-xxl py-5">
         <div className="container">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
@@ -250,7 +250,7 @@ export default function Team() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Team End */}
 
       {/* Company Info Start */}

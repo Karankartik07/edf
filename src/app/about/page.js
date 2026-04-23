@@ -117,7 +117,7 @@ export default function About() {
       {/* Feature End */}
 
       {/* Team Start */}
-      <div className="container-xxl py-5">
+      {/* <div className="container-xxl py-5">
         <div className="container">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
@@ -232,7 +232,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Team End */}
     </>
   );

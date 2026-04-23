@@ -105,7 +105,6 @@ export default function ContactForm() {
         The contact form is currently inactive. Get a functional and working
         contact form with Ajax & PHP in a few minutes. Just copy and paste the
         files, add a little code and you're done.{" "}
-        <a href="https://htmlcodex.com/contact-form">Download Now</a>.
       </p>
       <form onSubmit={handleSubmit}>
         <div className="row g-3">

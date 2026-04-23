@@ -248,11 +248,11 @@ export default function Service() {
       {/* Service End */}
 
       {/* Company Info Start */}
-      <CompanyInfo />
+      {/* <CompanyInfo /> */}
       {/* Company Info End */}
 
       {/* Testimonial Start */}
-      <div className="container-xxl py-5">
+      {/* <div className="container-xxl py-5">
         <div className="container">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
@@ -309,7 +309,7 @@ export default function Service() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Testimonial End */}
     </>
   );

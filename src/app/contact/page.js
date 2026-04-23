@@ -38,7 +38,7 @@ export default function Contact() {
       {/* Page Header End */}
 
       {/* Company Info Start */}
-      <CompanyInfo />
+      {/* <CompanyInfo /> */}
       {/* Company Info End */}
 
       {/* Contact Start */}

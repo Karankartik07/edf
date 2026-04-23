@@ -50,15 +50,7 @@ export default function Nav() {
               </Link>
             </div>
             <div className="h-100 d-inline-flex align-items-center">
-              <a className="btn btn-sm-square btn-outline-body me-1" href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              <a className="btn btn-sm-square btn-outline-body me-1" href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a className="btn btn-sm-square btn-outline-body me-1" href="#">
-                <i className="fab fa-linkedin-in"></i>
-              </a>
+              
               <a className="btn btn-sm-square btn-outline-body me-0" href="https://www.instagram.com/ekistiquedesignfora_?igsh=YnExOGNyenZucHUx">
                 <i className="fab fa-instagram"></i>
               </a>
@@ -123,7 +115,7 @@ export default function Nav() {
               Services
             </Link>
 
-            <div className="nav-item dropdown">
+            {/* <div className="nav-item dropdown">
               <a
                 href="#"
                 className="nav-link dropdown-toggle"
@@ -177,7 +169,7 @@ export default function Nav() {
                   404 Page
                 </Link>
               </div>
-            </div>
+            </div> */}
 
             <Link
               href="/contact"
@@ -190,11 +182,11 @@ export default function Nav() {
 
           {/* Desktop button */}
           <Link style={{height:"50px"}}
-            href="/appointment"
+            href="tel:+918073123896"
             className="btn btn-primary py-2 px-4 d-none d-lg-block"
             onClick={closeMenu}
           >
-            Appointment
+            Call Now
           </Link>
         </div>
       </nav>

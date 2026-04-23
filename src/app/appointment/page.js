@@ -61,7 +61,7 @@ export default function Appointment() {
                     </div>
                     <div className="ms-4">
                       <p className="mb-2">Call Us Now</p>
-                      <h3 className="mb-0">+91 9810166061</h3>
+                      <h3 className="mb-0">+91 9810166061 / +91 8073123896</h3>
                     </div>
                   </div>
                 </div>

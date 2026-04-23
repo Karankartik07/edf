@@ -4,10 +4,34 @@ import Footer from "@/components/Footer";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Arkitektur - Architecture Next.js Template",
-  description: "Best Architecture And Interior Design Services",
+  title: "Ekistique Design Fora | Modern Architecture & Design Studio",
+  description: "Ekistique Design Fora offers innovative architecture and interior design solutions, creating modern, functional, and elegant spaces for residential and commercial projects.",
 };
-
+const softwareSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Ekistique Design Fora | Modern Architecture & Design Studio ",
+  operatingSystem: "Web",
+  applicationCategory: "BusinessApplication",
+  description:
+    "Ekistique Design Fora offers innovative architecture and interior design solutions, creating modern, functional, and elegant spaces for residential and commercial projects.",
+  url: "www.ekistiquedesignfora.com",
+  image:
+    "https://res.cloudinary.com/dxlykgx6w/image/upload/v1776430340/ekistique_design_fora_fdesc1.jpg",
+  publisher: {
+    "@type": "Organization",
+    name: "Ekistique Design Fora",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://res.cloudinary.com/dxlykgx6w/image/upload/v1776430340/ekistique_design_fora_fdesc1.jpg",
+    },
+     potentialAction: {
+    "@type": "SearchAction",
+    target: "www.ekistiquedesignfora.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
+  },
+};
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -48,6 +72,15 @@ export default function RootLayout({ children }) {
         <Nav />
         {children}
         <Footer />
+
+        <Script
+    id="softwareSchema"
+    type="application/ld+json"
+    strategy="beforeInteractive"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(softwareSchema),
+    }}
+  />
 
         {/* JavaScript Libraries */}
         <Script src="https://code.jquery.com/jquery-3.4.1.min.js" strategy="beforeInteractive" />

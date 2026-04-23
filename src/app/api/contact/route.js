@@ -20,15 +20,15 @@ export async function POST(req) {
       port: 465,
       secure: true,
       auth: {
-        user: "karan.kushel.digisolution@gmail.com",
-        pass: "qzkrewyfznhpaojk",
+        user: "ekistiquedesignfora@gmail.com",
+        pass: "daklcdsxrgjiufhs",
       },
     });
 
     // ✅ Admin mail
     await transporter.sendMail({
-      from: '"System Notification" <karan.kushel.digisolution@gmail.com>',
-      to: "karan.kushel.digisolution@gmail.com",
+      from: '"System Notification" <ekistiquedesignfora@gmail.com>',
+      to: "ekistiquedesignfora@gmail.com",
       subject: `🚀 New Lead: ${name} via Contact Form`,
       html: `
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #ddd; border-radius: 8px; overflow: hidden;">
@@ -82,7 +82,7 @@ export async function POST(req) {
     });
 
     await transporter.sendMail({
-      from: '"EDF" <karan.kushel.digisolution@gmail.com>',
+      from: '"EDF" <ekistiquedesignfora@gmail.com>',
       to: email,
       subject: "We've received your message! – EDF",
       html: `
@@ -98,7 +98,7 @@ export async function POST(req) {
         <p>Providing the best customization experience for your website is our top priority. One of our experts will get back to you within <b>24 business hours</b>.</p>
         
         <div style="margin: 30px 0; text-align: center;">
-          <a href="edf-three.vercel.appe" 
+          <a href="https://www.ekistiquedesignfora.com" target="_blank"
              style="background-color: #303030; color: #ffffff; padding: 12px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; display: inline-block;">
              Explore Our Website
           </a>

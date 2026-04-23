@@ -76,7 +76,7 @@ export default function Footer() {
                 Support
               </a>
             </div>
-            <div className="col-lg-3 col-md-6">
+            {/* <div className="col-lg-3 col-md-6">
               <h3 className="text-light mb-4">Newsletter</h3>
               <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
               <div
@@ -95,25 +95,25 @@ export default function Footer() {
                   SignUp
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="container-fluid copyright">
           <div className="container">
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+                &copy; <a href="#">Ekistique Design Fora</a>, All Right Reserved.
               </div>
               <div className="col-md-6 text-center text-md-end">
-                Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+                Designed By <a href="https://www.linkedin.com/in/karan-kartik-585245241/">KK</a>
                 <br /> Distributed By:{" "}
                 <a
                   className="border-bottom"
-                  href="https://themewagon.com"
+                  href="https://www.linkedin.com/in/inderpal-singh-in40440/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  ThemeWagon
+                  IP
                 </a>
               </div>
             </div>

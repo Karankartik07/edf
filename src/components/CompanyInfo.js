@@ -59,7 +59,7 @@ export default function CompanyInfo() {
         <div className="row g-5 mb-5">
           <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
             <h2 className="section-title">Core Services</h2>
-            <ul className="list-unstyled">
+            <ul className="list-unstyled text-left !sm:text-center">
               <li>
                 • Hospital & Healthcare Architecture (Multi-Specialty Hospitals,
                 Nursing Homes, ICU & OT Planning, NABH Layouts)
@@ -108,75 +108,66 @@ export default function CompanyInfo() {
         {/* Leadership Team */}
         <div className="row g-5 mb-5">
           <div className="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
-            <h2 className="section-title">Leadership Team</h2>
+            <h2 className="section-title mb-4">Leadership Team</h2>
             <div className="row">
               <div className="col-md-4  mb-4 flex justify-center align-items-center flex-col ">
-                <img
+                {/* <img
                   src="img/team-1.jpg"
                   alt="Sanjay Kumar Yadav"
                   className="img-fluid rounded-circle mb-3"
                   style={{ width: "150px", height: "150px" }}
-                />
+                /> */}
                 <h4>Sanjay Kumar Yadav</h4>
                 <p>CEO</p>
               </div>
               <div className="col-md-4  mb-4 flex justify-center align-items-center flex-col ">
-                <img
+                {/* <img
                   src="img/team-2.jpg"
                   alt="Arun Kumar"
                   className="img-fluid rounded-circle mb-3"
                   style={{ width: "150px", height: "150px" }}
-                />
+                /> */}
                 <h4>Arun Kumar</h4>
                 <p>Director</p>
               </div>
               <div className="col-md-4  mb-4 flex justify-center align-items-center flex-col ">
-                <img
+                {/* <img
                   src="img/team-3.jpg"
                   alt="Yudhveer Singh"
                   className="img-fluid rounded-circle mb-3"
                   style={{ width: "150px", height: "150px" }}
-                />
+                /> */}
                 <h4>Yudhveer Singh</h4>
                 <p>Director</p>
               </div>
               <div className="col-md-4  mb-4 flex justify-center align-items-center flex-col ">
-                <img
+                {/* <img
                   src="img/team-4.jpg"
                   alt="Kanishk Deshwal"
                   className="img-fluid rounded-circle mb-3"
                   style={{ width: "150px", height: "150px" }}
-                />
+                /> */}
                 <h4>Kanishk Deshwal</h4>
                 <p>Director</p>
               </div>
+            
               <div className="col-md-4  mb-4 flex justify-center align-items-center flex-col ">
-                <img
-                  src="img/team-1.jpg"
-                  alt="Ashish Dwivedi"
-                  className="img-fluid rounded-circle mb-3"
-                  style={{ width: "150px", height: "150px" }}
-                />
-                <h4>Ashish Dwivedi</h4>
-                <p>Chief Architect</p>
-              </div>
-              <div className="col-md-4  mb-4 flex justify-center align-items-center flex-col ">
-                <img
+                {/* <img
                   src="img/team-2.jpg"
                   alt="Sachin Yadav"
                   className="img-fluid rounded-circle mb-3"
                   style={{ width: "150px", height: "150px" }}
-                />
-                <h4>Sachin Yadav</h4>
+                /> */}
+                <h4>Sachin Yadav</h4> 
                 <p>Structural Engineer</p>
               </div>
               <div className="col-md-4  mb-4 flex justify-center align-items-center flex-col ">
-                <img
+                {/* <img
                   src="img/team-3.jpg"
                   alt="Ashish Yadav"
                   className="img-fluid rounded-circle mb-3"
                   style={{ width: "150px", height: "150px" }}
-                />
+                />    */}
                 <h4>Ashish Yadav</h4>
                 <p>IT Solutions Engineer</p>
               </div>

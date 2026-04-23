@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import ContactForm from "@/components/ContactForm";
 
 export default function Home() {
   return (
@@ -37,10 +38,10 @@ export default function Home() {
                         Specialists
                       </p>
                       <a
-                        href=""
+                        href="tel:+918073123896"
                         className="btn btn-primary py-3 px-5 animated slideInLeft"
                       >
-                        Read More
+                        Call Now
                       </a>
                     </div>
                   </div>
@@ -63,10 +64,10 @@ export default function Home() {
                         hospitality
                       </p>
                       <a
-                        href=""
+                        href="tel:+918073123896"
                         className="btn btn-primary py-3 px-5 animated slideInLeft"
                       >
-                        Read More
+                        Call Now
                       </a>
                     </div>
                   </div>
@@ -88,10 +89,10 @@ export default function Home() {
                         Leading luxury architectural firm in India
                       </p>
                       <a
-                        href=""
+                        href="tel:+918073123896"
                         className="btn btn-primary py-3 px-5 animated slideInLeft"
                       >
-                        Read More
+                        Call Now
                       </a>
                     </div>
                   </div>
@@ -503,8 +504,8 @@ export default function Home() {
                         <i className="fa fa-check text-primary me-3"></i>Project
                         Management
                       </p>
-                      <a href="" className="btn btn-primary py-3 px-5 mt-3">
-                        Read More
+                      <a href="tel:+918073123896" className="btn btn-primary py-3 px-5 mt-3">
+                        Call Now
                       </a>
                     </div>
                   </div>
@@ -542,8 +543,8 @@ export default function Home() {
                         <i className="fa fa-check text-primary me-3"></i>Project
                         Management
                       </p>
-                      <a href="" className="btn btn-primary py-3 px-5 mt-3">
-                        Read More
+                      <a href="tel:+918073123896" className="btn btn-primary py-3 px-5 mt-3">
+                        Call Now
                       </a>
                     </div>
                   </div>
@@ -581,8 +582,8 @@ export default function Home() {
                         <i className="fa fa-check text-primary me-3"></i>Project
                         Management
                       </p>
-                      <a href="" className="btn btn-primary py-3 px-5 mt-3">
-                        Read More
+                      <a href="tel:+918073123896" className="btn btn-primary py-3 px-5 mt-3">
+                        Call Now
                       </a>
                     </div>
                   </div>
@@ -620,8 +621,8 @@ export default function Home() {
                         <i className="fa fa-check text-primary me-3"></i>Project
                         Management
                       </p>
-                      <a href="" className="btn btn-primary py-3 px-5 mt-3">
-                        Read More
+                      <a href="tel:+918073123896" className="btn btn-primary py-3 px-5 mt-3">
+                        Call Now
                       </a>
                     </div>
                   </div>
@@ -634,7 +635,7 @@ export default function Home() {
       {/* Project End */}
 
       {/* Team Start */}
-      <div className="container-xxl py-5">
+      {/* <div className="container-xxl py-5">
         <div className="container">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp section-max-width"
@@ -748,124 +749,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Team End */}
 
       {/* Appointment Start */}
       <div className="container-xxl py-5">
         <div className="container">
           <div className="row g-5">
-            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-              <h4 className="section-title">Appointment</h4>
-              <h1 className="display-5 mb-4">
-                Make An Appointment To Start Your Dream Project
-              </h1>
-              <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
-              </p>
-              <div className="row g-4">
-                <div className="col-12">
-                  <div className="d-flex">
-                    <div
-                      className="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
-                      style={{ width: "65px", height: "65px" }}
-                    >
-                      <i className="fa fa-2x fa-phone-alt text-primary"></i>
-                    </div>
-                    <div className="ms-4">
-                      <p className="mb-2">Call Us Now</p>
-                      <h3 className="mb-0">+91 9810166061</h3>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12">
-                  <div className="d-flex">
-                    <div
-                      className="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
-                      style={{ width: "65px", height: "65px" }}
-                    >
-                      <i className="fa fa-2x fa-envelope-open text-primary"></i>
-                    </div>
-                    <div className="ms-4">
-                      <p className="mb-2">Mail Us Now</p>
-                      <h3 className="mb-0">info@example.com</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-              <div className="row g-3">
-                <div className="col-12 col-sm-6">
-                  <input
-                    type="text"
-                    className="form-control form-input-height"
-                    placeholder="Your Name"
-                  />
-                </div>
-                <div className="col-12 col-sm-6">
-                  <input
-                    type="email"
-                    className="form-control form-input-height"
-                    placeholder="Your Email"
-                  />
-                </div>
-                <div className="col-12 col-sm-6">
-                  <input
-                    type="text"
-                    className="form-control form-input-height"
-                    placeholder="Your Mobile"
-                  />
-                </div>
-                <div className="col-12 col-sm-6">
-                  <select
-                    className="form-select form-input-height"
-                    defaultValue="Choose Service"
-                  >
-                    <option disabled>Choose Service</option>
-                    <option value="1">Service 1</option>
-                    <option value="2">Service 2</option>
-                    <option value="3">Service 3</option>
-                  </select>
-                </div>
-                <div className="col-12 col-sm-6">
-                  <div className="date" id="date" data-target-input="nearest">
-                    <input
-                      type="text"
-                      className="form-control datetimepicker-input form-input-height"
-                      placeholder="Choose Date"
-                      data-target="#date"
-                      data-toggle="datetimepicker"
-                    />
-                  </div>
-                </div>
-                <div className="col-12 col-sm-6">
-                  <div className="time" id="time" data-target-input="nearest">
-                    <input
-                      type="text"
-                      className="form-control datetimepicker-input form-input-height"
-                      placeholder="Choose Date"
-                      data-target="#time"
-                      data-toggle="datetimepicker"
-                    />
-                  </div>
-                </div>
-                <div className="col-12">
-                  <textarea
-                    className="form-control"
-                    rows="5"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-                <div className="col-12">
-                  <button className="btn btn-primary w-100 py-3" type="submit">
-                    Book Appointment
-                  </button>
-                </div>
-              </div>
-            </div>
+            <ContactForm/>
           </div>
         </div>
       </div>
